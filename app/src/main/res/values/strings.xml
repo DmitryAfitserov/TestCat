@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TestCat</string>
+
+    <string name="cats">Коты</string>
+    <string name="favorites">Избранное</string>
+    <string name="error_loading">Ошибка загрузки</string>
+    <string name="ok">Ок</string>
+    <string name="cancel">Отмена</string>
+    <string name="download_image">Скачать изображение</string>
+    <string name="download_image_description">Вы можете скачать изображение в папку "Загрузки"</string>
+    <string name="access_denied">Доступ запрещён</string>
+    <string name="settings">Настройки</string>
+    <string name="storage_permission_message">Чтобы разрешить приложению загрузить изображение перейдите в настройки и разрешите приложению доступ к памяти.</string>
+    <string name="retry">Повторить</string>
+    <string name="empty_favorite">В избранном нет котиков</string>
+</resources>
