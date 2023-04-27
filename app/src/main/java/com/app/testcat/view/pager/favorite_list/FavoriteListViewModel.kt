@@ -3,7 +3,6 @@ package com.app.testcat.view.pager.favorite_list
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.app.testcat.api.DaoCat
-import com.app.testcat.model.CatNet
 import com.app.testcat.model.CatUI
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.*
