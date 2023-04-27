@@ -18,9 +18,7 @@ class FavoriteListViewModel @Inject constructor(
 
     fun getCats(): Flow<List<CatUI>> = daoCat.getAllCats().map {
             listNet ->
-        val listCat = arrayListOf<CatUI>()
-        listNet.forEach { listCat.add(it.toCatUI(true)) }
-        listCat
+        listNet.map { catNet -> catNet.toCatUI(true) }.reversed()
     }
 
 
